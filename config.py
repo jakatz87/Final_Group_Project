@@ -1,3 +1,1 @@
-weather_api_key="cd8cfb53bc75260b7c852141345864a6"
-g_key="AIzaSyDa7TNY2uQA56Rm_zYb-EWxuKg3fBkJwGI"
-nyt_api_key="CfMizNPVO8RhNoO232kUO9kYhuru6GEm"
+weather_api_key=
