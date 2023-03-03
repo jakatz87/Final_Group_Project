@@ -1,0 +1,159 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos Text', sans-serif;;
+}
+
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(#ABE59F, #F5F3BB);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 100px;
+    margin-top: -23px;  
+}
+
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 18px 12px;
+    position: relative;
+}
+
+
+
+.github-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient( #ABE59F, #ABE59F), radial-gradient(circle at top left, #FE5F55, #00AFB9);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.nav-links ul li a{
+    color:#003A3D;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#00AFB9;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.github-btn span{
+    display: block;
+    padding: 8px 22px;
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+}
+
+
+.app-text{
+    width: 60%;
+    position: absolute;
+    top:5%;
+    left: 10%;
+}
+
+
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+}
+
+
+.app-text p{
+    width: 550px;
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:#00AFB9;
+}
+
+.learn-btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+.app-picture{
+    width: 50%;
+    float: right;
+}
+.app-picture img{
+    width: 100%;
+    margin-top: -15%;
+    padding-left: 5%;
+   
+}
+
+
+
+
+
+.learn-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient( #ABE59F, #ABE59F), radial-gradient(circle at top left, #FE5F55, #00AFB9);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+}
+.learn-btn-inner .fa{
+    padding: 15px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+small{
+    margin: auto 20px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #00AFB9;
+    letter-spacing: 3px;
+}
