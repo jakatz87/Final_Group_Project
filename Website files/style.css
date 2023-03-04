@@ -1,11 +1,17 @@
+ /* HOME PAGE */
 
 
+/* BODY */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Golos Text', sans-serif;;
+    
 }
 
+body{
+    background: linear-gradient(#ABE59F, #F5F3BB);
+}
 
 .container{
     min-height: 100vh;
@@ -16,7 +22,7 @@
     position: relative;
 }
 
-
+/* NAVIGATION */
 nav{
     display: flex;
     padding: 2% 6%;
@@ -41,20 +47,6 @@ nav img{
     position: relative;
 }
 
-
-
-.github-btn{
-    top: 40px;
-    right: 80px;
-    position: absolute;
-    text-decoration: none;
-    border: 2px solid transparent;
-    border-radius: 20px;
-    background-image: linear-gradient( #ABE59F, #ABE59F), radial-gradient(circle at top left, #FE5F55, #00AFB9);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-}
-
 .nav-links ul li a{
     color:#003A3D;
     text-decoration: none;
@@ -75,14 +67,37 @@ nav img{
     width: 100%;
 }
 
+/* GITHUB BUTTON */
+.github-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient( #ABE59F, #ABE59F), radial-gradient(circle at top left, #FE5F55, #00AFB9);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.github-btn:hover{
+    border: #00AFB9;
+    background: #00AFB9;
+    transition: 1s;
+}
+
+
+
 .github-btn span{
     display: block;
     padding: 8px 22px;
 }
 
+/* BODY OF HOME PAGE */
+
 .banner{
     width: 80%;
-    height: 70%;
+    height: 30%;
     top: 25%;
     left: 130px;
     position: absolute;
@@ -98,7 +113,7 @@ nav img{
 
 
 .app-text h1{
-    font-size: 43px;
+    font-size: 41px;
     width: 640px;
     position: relative;
 }
@@ -108,8 +123,8 @@ nav img{
     width: 550px;
     font-size: 17px;
     line-height: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     color:#00AFB9;
 }
 
@@ -128,9 +143,6 @@ nav img{
     padding-left: 5%;
    
 }
-
-
-
 
 
 .learn-btn-inner{
@@ -156,4 +168,157 @@ small{
     font-size: 12px;
     color: #00AFB9;
     letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+/* LEARN MORE */
+/* FIRST ROW */
+.learnfirstrow{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.learnfirstrow img{
+    width: 25%;
+    padding-left: 22%;
+}
+
+.learnfirstrow h2{
+    width: 540px;
+    float: right;
+    padding-right: 22%;
+    margin-top: 11%;
+    color: #003A3D;
+}
+
+
+
+/* SECOND ROW */
+.learnsecondrow{
+    background-color:#ABE59F;
+    clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
+    margin-top: -50px;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.learnsecondrow img{
+    margin-top: 10%;
+    width: 25%;
+    padding-right: 15%;
+}
+
+.header1{
+    margin-top: 60%;
+    padding-left: 72%;
+    width: 110%;
+}
+
+.header1 h1{
+    font-size: 120px;
+    float: left;
+    padding-right: 7%;
+    color: #003A3D;
+}
+
+
+.header1 h2{
+    font-size: 60px;
+    color: #003A3D;
+
+}
+
+
+
+.learnsecondrowtext p{
+    padding-top: 30px;
+    width: 540px;
+    text-align: center;
+    padding-left: 72%;
+    padding-bottom: 5%;
+
+}
+
+
+/* THIRD ROW */
+
+.learnthirdrow{
+    background-color:#ABE59F;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.learnthirdrowtext p{
+    padding-top: 30px;
+    width: 540px;
+    text-align: center;
+    padding-left: 72%;
+    padding-bottom: 5%;
+
+}
+
+.header2{
+    margin-top: 60%;
+    padding-left: 72%;
+    width: 110%;
+}
+
+.header2 h1{
+    font-size: 120px;
+    float: left;
+    padding-right: 7%;
+    color: #003A3D;
+}
+
+
+.header2 h2{
+    font-size: 60px;
+    color: #003A3D;
+
+}
+
+
+/* FOURTH ROW */
+
+.learnfourthrow{
+    background-color:#ABE59F;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.learnfourthrowtext p{
+    padding-top: 30px;
+    width: 540px;
+    text-align: center;
+    padding-left: 72%;
+    padding-bottom: 5%;
+
+}
+
+.header3{
+    margin-top: 60%;
+    padding-left: 72%;
+    width: 110%;
+}
+
+.header3 h1{
+    font-size: 120px;
+    float: left;
+    padding-right: 7%;
+    color: #003A3D;
+}
+
+
+.header3 h2{
+    font-size: 60px;
+    color: #003A3D;
+
 }
