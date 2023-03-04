@@ -14,13 +14,12 @@ body{
 }
 
 .container{
-    min-height: 100vh;
+   
     width: 100%;
-    background: linear-gradient(#ABE59F, #F5F3BB);
-    background-position: center;
-    background-size: cover;
-    position: relative;
+      
 }
+
+
 
 /* NAVIGATION */
 nav{
@@ -67,6 +66,11 @@ nav img{
     width: 100%;
 }
 
+nav .fa{
+    display: none;
+}
+
+
 /* GITHUB BUTTON */
 .github-btn{
     top: 40px;
@@ -104,26 +108,30 @@ nav img{
 }
 
 
-.app-text{
-    width: 60%;
-    position: absolute;
-    top:5%;
-    left: 10%;
+.app {
+    margin-top: 10%;
+    
+    margin-bottom: 5%;
+    
+    column-gap: 15px;
+  
 }
 
 
-.app-text h1{
+.app h1{
     font-size: 41px;
-    width: 640px;
-    position: relative;
+    width: 665px;
+    padding-left: 12%;
+    
 }
 
 
-.app-text p{
+.app p{
     width: 550px;
     font-size: 17px;
     line-height: 25px;
     padding-top: 25px;
+    padding-left: 12%;
     padding-bottom: 25px;
     color:#00AFB9;
 }
@@ -131,16 +139,16 @@ nav img{
 .learn-btn{
     margin-left: 40px;
     display: inline-flex;
+    padding-left: 10%;
 }
 
-.app-picture{
+
+.app img{
     width: 50%;
-    float: right;
-}
-.app-picture img{
-    width: 100%;
-    margin-top: -15%;
+    margin-top: -12%;
     padding-left: 5%;
+    padding-right: 5%;
+    float: right;
    
 }
 
@@ -202,7 +210,6 @@ small{
 
 /* SECOND ROW */
 .learnsecondrow{
-    background-color:#ABE59F;
     clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
     margin-top: -50px;
     margin-top: 15%;
@@ -251,7 +258,6 @@ small{
 /* THIRD ROW */
 
 .learnthirdrow{
-    background-color:#ABE59F;
     display: flex;
     justify-content: space-between; 
 }
@@ -297,7 +303,6 @@ small{
 /* FOURTH ROW */
 
 .learnfourthrow{
-    background-color:#ABE59F;
     display: flex;
     justify-content: space-between; 
 
@@ -393,4 +398,67 @@ h3{
 
 .course_col:hover{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2) ;
+}
+
+
+
+
+@media screen and (max-width: 700px){
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #ABE59F;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right:-200px;
+        text-align: left;
+        z-index: 2;
+        float: auto;
+        transition: 1s;
+    }
+
+    .github-btn{
+        display: none;
+    }
+
+    nav .fa{
+        display: block;
+        color: #2E2823;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+
+    .app h1{
+        font-size: 21px;
+        width: 350px;
+    }
+    
+    
+    .app p{
+        width: 350px;
+        font-size: 17px;
+        line-height: 25px;
+        padding-top: 25px;
+        padding-left: 12%;
+        padding-bottom: 25px;
+        color:#00AFB9;
+    }
+
+    .app img{
+        width: 60%;
+        margin-top: -12%;
+        padding-left: 15%;
+        padding-right: 5%;
+        float:inherit;
+       
+    }
+
+
 }
