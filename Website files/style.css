@@ -187,52 +187,69 @@ small{
 
 /* LEARN MORE */
 /* FIRST ROW */
+
 .learnfirstrow{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between; 
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.learnfirstrow img{
-    width: 25%;
+
+.learnhead img{
+    width: 55%;
     padding-left: 22%;
 }
 
-.learnfirstrow h2{
+.learnhead h2{
     width: 540px;
-    float: right;
-    padding-right: 22%;
-    margin-top: 11%;
+    margin-top: 25%;
     color: #003A3D;
+    
 }
 
 
 
 /* SECOND ROW */
 .learnsecondrow{
-    clip-path: polygon(0 0,50% 50px,100% 0,100% 100%,0 100%);
-    margin-top: -50px;
-    margin-top: 15%;
-    display: flex;
-    justify-content: space-between; 
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;     
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.learnsecondrow img{
-    margin-top: 10%;
-    width: 25%;
-    padding-right: 18%;
+.learnsecondhead{
+    flex-basis: 31%;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    column-gap: 35px;
+    transition: 0.5s;
+
+}
+
+.learnsecondhead img{
+    width: 65%;
+    padding-right: 12%;
+    margin-top: 25%;
 }
 
 .header1{
-    margin-top: 60%;
-    padding-left: 72%;
+    margin-top: 40%;
+    padding-left: 22%;
     width: 110%;
 }
 
 .header1 h1{
     font-size: 120px;
     float: left;
-    padding-right: 7%;
     color: #003A3D;
 }
 
@@ -240,47 +257,66 @@ small{
 .header1 h2{
     font-size: 60px;
     color: #003A3D;
+    text-align: center;
+    width: 550px;
+   
+    
 
 }
 
 
 
-.learnsecondrowtext p{
+.learnsecondhead p{
     padding-top: 30px;
     width: 540px;
     text-align: center;
-    padding-left: 72%;
+    padding-left: 22%;
     padding-bottom: 5%;
 
 }
+
+
+
 
 
 /* THIRD ROW */
 
 .learnthirdrow{
-    display: flex;
-    justify-content: space-between; 
+    width: 80%;
+    margin: auto;
+    margin-top: 10 px;
+    text-align: center;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr); 
 }
 
-.learnthirdrowtext p{
-    padding-top: 30px;
-    width: 540px;
-    text-align: center;
-    padding-left: 52%;
-    padding-bottom: 5%;
+.learnthirdhead{
+    flex-basis: 31%;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    column-gap: 35px;
+    transition: 0.5s;
 
+}
+
+.learnthirdhead img{
+    width: 65%;
+    padding-right: 12%;
+    margin-top: 25%;
 }
 
 .header2{
-    margin-top: 60%;
-    padding-left: 48%;
-    width: 120%;
+    margin-top: 40%;
+    padding-left: 10%;
+    width: 110%;
 }
 
 .header2 h1{
     font-size: 120px;
     float: left;
-    padding-right: 7%;
     color: #003A3D;
 }
 
@@ -288,14 +324,22 @@ small{
 .header2 h2{
     font-size: 60px;
     color: #003A3D;
+    text-align: center;
+    width: 620px;
+    
     
 
 }
 
-.learnthirdrow img{
-    margin-top: 10%;
-    width: 25%;
-    padding-left: 18%;
+
+
+.learnthirdhead p{
+    padding-top: 10px;
+    width: 540px;
+    text-align: center;
+    padding-left: 15%;
+    padding-bottom: 5%;
+
 }
 
 
@@ -303,46 +347,70 @@ small{
 /* FOURTH ROW */
 
 .learnfourthrow{
-    display: flex;
-    justify-content: space-between; 
-
-}
-
-.learnfourthrowtext p{
-    padding-top: 30px;
-    width: 540px;
+    width: 80%;
+    margin: auto;
     text-align: center;
-    padding-left: 72%;
-    padding-bottom: 5%;
+    padding-top: 20px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.learnfourthhead{
+    flex-basis: 31%;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    column-gap: 35px;
+    transition: 0.5s;
 
 }
+
+.learnfourthhead img{
+    width: 65%;
+    padding-right: 12%;
+    margin-top: 25%;
+}
+
 
 .header3{
-    margin-top: 60%;
-    padding-left: 72%;
+    margin-top: 40%;
     width: 110%;
+    padding-left: 90px;
 }
 
 .header3 h1{
     font-size: 120px;
     float: left;
-    padding-right: 7%;
     color: #003A3D;
+    padding-right: 3%;
+    padding-left: 10%;
+    
 }
 
 
 .header3 h2{
     font-size: 60px;
     color: #003A3D;
+    text-align: left;
+    width: 620px;
+    
+    
+    
+}
+
+
+
+.learnfourthhead p{
+    padding-top: 30px;
+    width: 540px;
+    text-align: center;
+    padding-left: 22%;
+    padding-bottom: 5%;
 
 }
 
-.learnfourthrow img{
-    margin-top: 10%;
-    width: 25%;
-    padding-right: 18%;
-    padding-bottom: 10%;
-}
 
 
 /* FIFTH ROW */
@@ -401,7 +469,7 @@ h3{
 }
 
 
-
+/* RESPONSIVE CSS CODE */
 
 @media screen and (max-width: 700px){
     .nav-links ul li{
@@ -418,6 +486,11 @@ h3{
         z-index: 2;
         float: auto;
         transition: 1s;
+    }
+
+    nav img{
+        width: 100px;
+        margin-top: -4px;  
     }
 
     .github-btn{
@@ -461,4 +534,16 @@ h3{
     }
 
 
+
+    .learnfirstrow img{
+        width: 55%;
+        float:inherit;
+    }
+    
+    .learnfirstrow h2{
+        width: 540px;
+        font-size: 15px;
+        margin-top: 11%;
+        color: #003A3D;
+    }
 }
