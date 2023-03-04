@@ -213,7 +213,7 @@ small{
 .learnsecondrow img{
     margin-top: 10%;
     width: 25%;
-    padding-right: 15%;
+    padding-right: 18%;
 }
 
 .header1{
@@ -260,15 +260,15 @@ small{
     padding-top: 30px;
     width: 540px;
     text-align: center;
-    padding-left: 72%;
+    padding-left: 52%;
     padding-bottom: 5%;
 
 }
 
 .header2{
     margin-top: 60%;
-    padding-left: 72%;
-    width: 110%;
+    padding-left: 48%;
+    width: 120%;
 }
 
 .header2 h1{
@@ -282,8 +282,16 @@ small{
 .header2 h2{
     font-size: 60px;
     color: #003A3D;
+    
 
 }
+
+.learnthirdrow img{
+    margin-top: 10%;
+    width: 25%;
+    padding-left: 18%;
+}
+
 
 
 /* FOURTH ROW */
@@ -321,4 +329,10 @@ small{
     font-size: 60px;
     color: #003A3D;
 
+}
+
+.learnfourthrow img{
+    margin-top: 10%;
+    width: 25%;
+    padding-right: 18%;
 }
