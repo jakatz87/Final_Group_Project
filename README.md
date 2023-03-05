@@ -13,8 +13,8 @@ Several datasets
 
 ### Database
 
-The possible final project data is stored here: possible_data_files
-The final project data is stored here: final_project_data
+The possible final project data is stored here: https://github.com/jakatz87/Final_Group_Project/tree/main/possible_data_files
+The final project data is stored here: https://github.com/jakatz87/Final_Group_Project/tree/main/final_project_data
 
 
 Data is located here
