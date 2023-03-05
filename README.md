@@ -27,7 +27,7 @@ The possible final project data is stored here: https://github.com/jakatz87/Fina
 The final project data is stored here: https://github.com/jakatz87/Final_Group_Project/tree/main/final_project_data
 
 
-Data is located here
+
 
 ### Project Outline
 #### Provisional Outline
