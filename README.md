@@ -13,6 +13,10 @@ Several datasets
 
 ### Database
 
+The possible final project data is stored here: possible_data_files
+The final project data is stored here: final_project_data
+
+
 Data is located here
 
 ### Project Outline
