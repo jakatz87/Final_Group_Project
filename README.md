@@ -13,7 +13,7 @@ Several datasets
 
 ### Database
 
-
+Data is located here
 
 ### Project Outline
 #### Provisional Outline
@@ -29,25 +29,25 @@ Several datasets
        * Wind speed   
 
 2.	Exploratory Analysis with Visualization
-•	Create scatter plots of the weather data for the following comparisons:
-•	Latitude versus temperature
-•	Latitude versus humidity
-•	Latitude versus cloudiness
-•	Latitude versus wind speed
-•	Determine the correlations for the following weather data:
-•	Latitude and temperature
-•	Latitude and humidity
-•	Latitude and cloudiness
-•	Latitude and wind speed
-•	Create a series of heatmaps using the Google Maps and Places API that showcases the following:
-•	Latitude and temperature
-•	Latitude and humidity
-•	Latitude and cloudiness
-•	Latitude and wind speed
+      * Create scatter plots of the weather data for the following comparisons:
+         * Latitude versus temperature
+         * Latitude versus humidity
+         * Latitude versus cloudiness
+         * Latitude versus wind speed
+      * Determine the correlations for the following weather data:
+         * Latitude and temperature
+         * Latitude and humidity
+         * Latitude and cloudiness
+         * Latitude and wind speed
+      * Create a series of heatmaps using the Google Maps and Places API that showcases the following:
+         * Latitude and temperature
+         * Latitude and humidity
+         * Latitude and cloudiness
+         * Latitude and wind speed
+         
 3.	Visualize Data
-•	Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences. Complete these steps:
-•	Filter the Pandas DataFrame based on user inputs for a minimum and maximum temperature.
-•	Create a heatmap for the new DataFrame.
-•	Add pop-up markers to the heatmap that display information about the city, current maximum temperature, and a hotel in the city.
-
+      * Create a heatmap with pop-up markers that can display information on specific cities based on a customer's travel preferences. Complete these steps:
+         * Filter the Pandas DataFrame based on user inputs for a minimum and maximum temperature.
+         * Create a heatmap for the new DataFrame.
+         * Add pop-up markers to the heatmap that display information about the city, current maximum temperature, and a hotel in the city.
 
