@@ -19,7 +19,7 @@ To facilitate collaboration, our team created a GitHub repository for our final 
 In addition to GitHub, we also established a Slack channel named final-countgroup, which includes all four members of our team. This channel serves as a platform for sharing ideas and notifying the team when we have made updates to our repository. We will also be utilizing Google Meet for video conferencing, with meetings scheduled for a minimum of three times per week. These meetings will occur twice a week during class time on Mondays and Wednesdays from 7pm-9pm, and at least once a week via Google Meet.
 
 ### Machine Learning Model
-Several datasets
+Unsupervised Machine Learning will need to be used to generate clusters within the data, then we can use Supervised Learning for a Random Foreset model to work on a predictive model relevant to our questions.
 
 ### Database
 
