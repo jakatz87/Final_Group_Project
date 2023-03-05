@@ -18,9 +18,9 @@ Several datasets
 ### Project Outline
 #### Provisional Outline
 1.	Collect Weather Data  
-   --* Use the OpenWeatherMap API to request the current weather data from each unique city in each list.  
-   --* Parse the JSON data from the API request.  
-   --*Collect the following data from the JSON file and add it to a DataFrame:  
+   * Use the OpenWeatherMap API to request the current weather data from each unique city in each list.  
+   * Parse the JSON data from the API request.  
+   * Collect the following data from the JSON file and add it to a DataFrame:  
    City, country, and date  
    Latitude and longitude  
    Maximum temperature  
