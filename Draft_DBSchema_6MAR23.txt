@@ -31,7 +31,7 @@ State string FK >- cw.State
 2021 int
 
 
-Indbound as ib
+Inbound as ib
 ---
 Index PK int
 State string FK >- cw.State
