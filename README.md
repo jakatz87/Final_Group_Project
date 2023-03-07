@@ -26,6 +26,7 @@ Unsupervised Machine Learning will need to be used to generate clusters within t
 
 The possible final project data is stored here: https://github.com/jakatz87/Final_Group_Project/tree/main/possible_data_files  
 The final project data is stored here: https://github.com/jakatz87/Final_Group_Project/tree/main/final_project_data
+![](Draft_DBSchema_6MAR23.png)
 
 
 
