@@ -1,10 +1,10 @@
 # Final_Group_Project
 
 ## Segment #1 Project Overview
-The initial component of the final group project in the Data Analytics and Visualization Bootcamp is to produce four deliverables. The first deliverable entails defining the project, which involves selecting a topic, gathering data related to the chosen topic, specifying the inquiries that will be addressed based on the data, and selecting the appropriate technologies and visualizations to answer these inquiries.
+The final group project in the Data Analytics and Visualization Bootcamp has four deliverables. The first deliverable entails defining the project, which involves selecting a topic, gathering data related to the chosen topic, specifying the inquiries that will be addressed based on the data, and selecting the appropriate technologies and visualizations to answer these inquiries.
 ### Presentation
 For our final group project, we opted to explore the theme of business investment and weather analysis, drawing on our previous knowledge from the bootcamp. Specifically, we focused on a serial AirBnb investor who sought to make informed investment decisions based on various factors, including weather data and occupancy rates. Our team, Final CountGroup Consulting, was engaged to conduct research and provide analysis to the investor and their board of directors. This topic builds upon the concepts we learned in the Surf's Up and WeatherPy modules, allowing us to expand our understanding of these areas in a practical context.
-  #### Potentail Questions
+  #### Potential Questions
   
   * What areas are ideal to invest in hospitality properties based on historic and predicted weather trends?  
   * What other factors might affect profitability in this sector?  
