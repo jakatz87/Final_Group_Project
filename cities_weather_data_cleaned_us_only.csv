@@ -1,4 +1,4 @@
-City_ID,City_ID,City,State,Country,Date,Lat,Lng,Max_Temp,Humidity,Cloudiness,Wind_Speed
+City_ID,City_ID,City,State,Country,Date,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed
 0,0,Kahului,HI,US,2023-03-02 01:23:39,20.8947,-156.47,74.3,92,40,14.97
 2,2,Kapaa,HI,US,2023-03-02 01:23:40,22.0752,-159.319,75.52,66,75,25.32
 3,3,Douglas,NE,US,2023-03-02 01:23:40,41.3,-96.167,32.88,78,0,13.8
