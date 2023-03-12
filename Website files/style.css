@@ -469,6 +469,60 @@ h3{
 }
 
 
+
+
+
+
+
+
+
+
+/* map page */
+
+
+.mapcontainer{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/usmap.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;  
+}
+
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+    color: #fff;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.metrics{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+
+
+
+
+
 /* RESPONSIVE CSS CODE */
 
 @media screen and (max-width: 700px){
