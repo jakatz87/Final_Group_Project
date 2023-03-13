@@ -61,10 +61,61 @@
     travel and tourism.</p>  
 </section>
 
-<section class="RFModel">
-    
+<section class="rftitle">
+    <h2>RANDOM FOREST MODEL</h2>
 </section>
-   
+
+<section class="RFModel">
+   <div class="img1"> <img src="images/rfcode1.png"></div>
+   <div class="img2"> <img src="images/rfoutcome.png"></div>
+</section>
+
+<section class="outcomerf">
+    <div class="img3"><img src="images/rfdrop.png"></div>
+</section>
+
+<section class="rftext">
+    <p>The Random Forest model produced 100% accuracy on every attempt.  
+    After the first attempt of running the model, several features were 
+    added to the ‘drop’ list. Regardless of the features kept for the model, 
+    or the number of n_estimators, Random Forest produced 100% accuracy for 
+    this data set.</p>
+
+</section>
+    
+<section class="rftitle">
+    <h2>LOGISTIC REGRESSION MODEL</h2>
+</section>
+
+<section class="LRMModel">
+    <div class="img1"> <img src="images/lrm1.png"></div>
+    <div class="img2"> <img src="images/lrmoutcome.png"></div>
+ </section>
+
+ <section class="lrmtext">
+    <p>The Logistic Regression Model produced a 98% accuracy score keeping the original set of features.</p>
+
+</section>
+
+<section class="lrmdescription">
+    
+    <h1>Results</h1>
+    <h2>What are the issues with the Logistic Regression Model?</h2>
+    <p>The data file used for the model was merged from four different 
+    sets of data, each with differing values and amounts of data.  
+    The issue was how the Quality of Life Index was transferred.  
+    The original file with this data represented only 60 cities in 
+    the US.  When the data was merged with the 2000 city file, the 
+    Quality of Life Index was merged on “state” to ensure that most 
+    of the 2000 cities had that data point.  In the merged file, any 
+    city in the same state would have the same Quality of Line Index score.</p>
+
+
+    <h2>What is the takeaway for the Logistic Regression Model?</h2>
+    <p>The strength of the Random Forest Model is not the 100% accuracy,
+    it is the ability to measure `feature_importances_`</p>
+</section>
+
 
 <script src="app.js"></script>
 
