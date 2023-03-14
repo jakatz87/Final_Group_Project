@@ -1,6 +1,4 @@
-<p align="center">
-  <img width="460" height="300" src="C:\1. Data Analytics Boot Camp Files\Module 21\Maximize AirBnb Investments UCF Bootcamp Data Analytics and Visualization (2023).png/460/300">
-</p>
+https://github.com/jakatz87/Final_Group_Project/blob/Deb/Maximize%20AirBnb%20Investments%20UCF%20Bootcamp%20Data%20Analytics%20and%20Visualization%20(2023).png
 
 
 # Final_Group_Project
