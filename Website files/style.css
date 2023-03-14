@@ -403,12 +403,12 @@ small{
 
 
 
-.learnfourthhead p{
-    padding-top: 30px;
+.learnfourthhead ul{
+    padding-top: 10px;
     width: 540px;
-    text-align: center;
+    text-align: left;
     padding-left: 22%;
-    padding-bottom: 5%;
+    padding-bottom: 10px;
 
 }
 
