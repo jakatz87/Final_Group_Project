@@ -1,10 +1,7 @@
-<p align="center">
-  <img width="460" height="300" src="Maximize%20AirBnb%20Investments%20UCF%20Bootcamp%20Data%20Analytics%20and%20Visualization%20(2023).png/460/300">
-</p>
+![Maximize AirBnb Investments UCF Bootcamp Data Analytics and Visualization (2023)](https://user-images.githubusercontent.com/113568268/225143671-ab6e033b-3b0a-438a-80f4-1e0ba593d4ad.png)
 
 
-
-# Final_Group_Project
+Final_Group_Project
 
 ## Segment #1 Project Overview
 The initial component of the final group project in the Data Analytics and Visualization Bootcamp is to produce four deliverables. The first deliverable entails defining the project, which involves selecting a topic, gathering data related to the chosen topic, specifying the inquiries that will be addressed based on the data, and selecting the appropriate technologies and visualizations to answer these inquiries.
