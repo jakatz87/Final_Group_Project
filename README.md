@@ -1,3 +1,8 @@
+<p align="center">
+  <img width="460" height="300" src="C:\1. Data Analytics Boot Camp Files\Module 21\Maximize AirBnb Investments UCF Bootcamp Data Analytics and Visualization (2023).png/460/300">
+</p>
+
+
 # Final_Group_Project
 
 ## Segment #1 Project Overview
