@@ -1,4 +1,6 @@
-https://github.com/jakatz87/Final_Group_Project/blob/Deb/Maximize%20AirBnb%20Investments%20UCF%20Bootcamp%20Data%20Analytics%20and%20Visualization%20(2023).png
+![image](https://user-images.githubusercontent.com/[112348240/222618055-59e1b13b-2416-44a8-aec8-f72cd7ed904c.png](https://github.com/jakatz87/Final_Group_Project/blob/Deb/Maximize%20AirBnb%20Investments%20UCF%20Bootcamp%20Data%20Analytics%20and%20Visualization%20(2023).png
+))
+
 
 
 # Final_Group_Project
