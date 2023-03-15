@@ -87,6 +87,6 @@ Jupyter Code Files. Code: All the notebooks and Tableau’s used for the final p
 ## Project Team
   * Joshua Katz
   * Aliana Robertson
-	* Scott McCraney
-	* Deborah Brashears
+  * Scott McCraney
+  * Deborah Brashears
 
