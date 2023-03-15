@@ -15,13 +15,6 @@ What metrics would influence a potential a serial AirBnb investor to buy a vacat
 Would factors such as weather, travelers, cost of living, healthcare, safety, quality of life or property inventory play a role in where a person decides to purchase a vacation rental property?
 
 
-
-
-
-
-
-
-
 ## Analysis
 ### Machine Learning
 Machine learning is a powerful tool used to interpret data by creating algorithms that can learn from patterns and trends within the data. The process involves feeding large sets of data into a machine learning model, which then identifies patterns and relationships within the data, and uses that information to make predictions or classifications for new data. 
@@ -44,22 +37,34 @@ The goal of the visualizations was to help enable our client to choose a locatio
 
 Average Temperature by State interactive map allows the AirBnb investor to hover over any state and see what the average temperature of a particular state.
 
+<img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/statebymaxtemp.png" width=100% height=25% />
+
+
 Inbound Travelers by State will help inform the investor where people tend to vacation and how rentable a property may be. This interactive visual using dynamic circles allows the user to get a quick view the differing amounts of inbound travelers. In addition, it allows the user to hover over the circle to see the exact number of travelers.
 
 <img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/inboundtravlersbymillions.png" width=100% height=25% />
 
+
 Real Estate Buyers by State interactive graphic gives the client the ability the quickly see overview of the what real estate inventory would be available. It allows the client to hover over each bar and see the actual percentage of buyers for a particular state.
+
+<img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/percentofrecentbuyersbystate.png" width=100% height=25% />
+
 
 US Quality of Life includes what factors impact the quality of life. By using machine learning tool, we were able to determine the top factors that impact quality of life and overall quality of life rating.  This interactive graphic show which state or states has the optimum quality of life based on the investor’s needs.
 
+<img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/qualityoflife_viz.png" width=100% height=25% />
+
+
 Median Government Outdoor Spending stunningly show how much money is spent on outdoor activities. This is a potential indicator of the amount and type of outdoor activities would be available to a potential renter.
 
+<img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/outdoor_viz.png" width=100% height=25% />
 
 
-### Communication
+## Communication
+
 The team used Zoom, Slack and Google Meeting for all communication needs. We communicated daily via slack.  Three days a week we meet via video using Zoom and Google Meeting for a minimum of one hour. 
 
-### Project Sources
+## Project Sources
   * Machine Learning
   * HTML
   * CSS
@@ -67,13 +72,14 @@ The team used Zoom, Slack and Google Meeting for all communication needs. We com
   * CSV Files
   *??
 
-### Location of Project Deliverables
+## Location of Project Deliverables
 
 Presentation: ?? I think this is where we put all the website files and final presentation.
 Final_project_data: All the final csv file
 Jupyter Code Files. Code: All the notebooks and Tableau’s used for the final project
 
-### Project Team
+
+## Project Team
   * Joshua Katz
   * Aliana Robertson
 	* Scott McCraney
