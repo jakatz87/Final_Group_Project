@@ -1,4 +1,4 @@
-<img src="https://github.com/jakatz87/Final_Group_Project/blob/Deb/Maximize%20AirBnb%20Investments%20UCF%20Bootcamp%20Data%20Analytics%20and%20Visualization%20(2023)%20(1).png
+<img src="![Maximize AirBnb Investments UCF Bootcamp Data Analytics and Visualization (2023) (1)](https://user-images.githubusercontent.com/113568268/225190185-710aa97f-7160-471c-9986-ed05d5ec5e12.png)
 " width=100% height=10% />
 
 
