@@ -72,11 +72,16 @@ Once the ‘high_q’ measure was created, we accounted for overfitting by dropp
 
 We created both a Logistic Regression Model and a Random Forest Model.  The Random Forest Model worked way too well, with 100% accuracy.  So, we dropped more features and n_estimators, but still came back at 100%.  
 
+![high_q-variable](https://user-images.githubusercontent.com/113568268/225430320-2c18fa97-8cd7-423c-9991-c1305de4f291.png)
+![logisitic_regression_model_code](https://user-images.githubusercontent.com/113568268/225430228-b8abbf3f-60fd-4735-ae4b-002fab8742fa.png)
+
 The Logistic Regression Model had a 98% accuracy, so we had a good idea our data was valid enough. 
 
 A couple of issues surfaced: the quality-of-life measures were merged by state, so we dropped the raw quality of life index measure as a feature.  The government expenses were flat amounts, not per capita, so the hope was StandardScalar would account for that.
 
 Regardless of which model was more accurate, the beauty was in the Feature Importances measure.  It turns out that the features with the highest impact were Safety, Healthcare, and Government Expenses on Outdoor Activities (including travel and tourism).  Keep that in mind when looking to invest in rental properties.
+ 
+
  
 
 ### Visualizations
