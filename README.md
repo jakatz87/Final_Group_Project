@@ -78,9 +78,10 @@ Median Government Outdoor Spending stunningly show how much money is spent on ou
 <img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/outdoor_viz.png" width=100% height=25% />
 
 
-## Communication
+### Github/Communication Protocols
 
-The team used Zoom, Slack and Google Meeting for all communication needs. We communicated daily via slack.  Three days a week we meet via video using Zoom and Google Meeting for a minimum of one hour. 
+To facilitate collaboration, our team created a GitHub repository for our final project, with Josh Katz serving as the repository manager. The repository consists of four branches, one for each team member, and is located within the Final_Count_Group_Consulting repository (https://github.com/jakatz87/Final_Group_Project)
+In addition to GitHub, we also established a Slack channel named final-countgroup, which includes all four members of our team. This channel serves as a platform for sharing ideas and notifying the team when we have made updates to our repository. We will also be utilizing Google Meet for video conferencing, with meetings scheduled for a minimum of three times per week. These meetings will occur twice a week during class time on Mondays and Wednesdays from 7pm-9pm, and at least once a week via Google Meet.
 
 ## Project Sources
   * Machine Learning
