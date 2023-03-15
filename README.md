@@ -61,7 +61,9 @@ Would factors such as weather, travelers, cost of living, healthcare, safety, qu
 
 
 ## Analysis
+
 ### Machine Learning
+
 Machine learning is a powerful tool used to interpret data by creating algorithms that can learn from patterns and trends within the data. The process involves feeding large sets of data into a machine learning model, which then identifies patterns and relationships within the data, and uses that information to make predictions or classifications for new data. 
 
 We had data on weather, on quality of life, on government spending, and travel destinations, we just had to create a model.  So, we decided to create an arbitrary percentile for quality of life, and gave each city a 1 or a 0 based on it.
@@ -72,10 +74,14 @@ Once the ‘high_q’ measure was created, we accounted for overfitting by dropp
 
 We created both a Logistic Regression Model and a Random Forest Model.  The Random Forest Model worked way too well, with 100% accuracy.  So, we dropped more features and n_estimators, but still came back at 100%.  
 
-![high_q-variable](https://user-images.githubusercontent.com/113568268/225430320-2c18fa97-8cd7-423c-9991-c1305de4f291.png)
-![logisitic_regression_model_code](https://user-images.githubusercontent.com/113568268/225430228-b8abbf3f-60fd-4735-ae4b-002fab8742fa.png)
+![random_forest_model_code](https://user-images.githubusercontent.com/113568268/225430964-9cf7c609-96d4-4a24-88d9-4c0b1f700d71.png)
+
 
 The Logistic Regression Model had a 98% accuracy, so we had a good idea our data was valid enough. 
+
+![logisitic_regression_model_code](https://user-images.githubusercontent.com/113568268/225430999-4026a0b4-2850-4c11-9df5-9ccc348d89b7.png)
+![logisitic_regression_model_outcome](https://user-images.githubusercontent.com/113568268/225431072-83b29365-afeb-4057-adfd-f7d8b4b9bad5.png)
+
 
 A couple of issues surfaced: the quality-of-life measures were merged by state, so we dropped the raw quality of life index measure as a feature.  The government expenses were flat amounts, not per capita, so the hope was StandardScalar would account for that.
 
