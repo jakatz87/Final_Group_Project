@@ -327,15 +327,16 @@ small{
     font-size: 120px;
     float: left;
     color: #003A3D;
+    margin-right: 18px;
 }
 
 
 .header2 h2{
     font-size: 60px;
     color: #003A3D;
-    text-align: center;
+    text-align: left;
     width: 620px;
-   
+    margin-left: 15px;
     
 
 }
@@ -488,6 +489,9 @@ h3{
 
 
 /* map page */
+
+
+
 
 
 .mapcontainer{
