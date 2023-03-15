@@ -24,34 +24,32 @@ The final project data is stored here: https://github.com/jakatz87/Final_Group_P
 
 ## Data Refernece
 
-Average Temperature by State
-Data File: cities_weather_data_cleaned_us_only.csv
-Data Source:Openweather.org
+Average Temperature by State  
+Data File: cities_weather_data_cleaned_us_only.csv  
+Data Source:Openweather.org  
 
-Inbound Travelers by State per Million
-Data File: inbound_data_cross_reference.csv
-Data Source: US_Air_Travel by Robby Sim (Tableau Public data download)
+Inbound Travelers by State per Million  
+Data File: inbound_data_cross_reference.csv  
+Data Source: US_Air_Travel by Robby Sim (Tableau Public data download)  
 
-Real Estate Buyers by State %
-Data File: nar_share_of_homebuyers.csv
-Data Source: National Association of Realtors
+Real Estate Buyers by State %  
+Data File: nar_share_of_homebuyers.csv  
+Data Source: National Association of Realtors  
 
-US Quality of Life
-Data File: qol_cleaned_us_only.csv
-Data Source: Numbeo.com Northern America: Current Quality of Life Index by City
+US Quality of Life  
+Data File: qol_cleaned_us_only.csv  
+Data Source: Numbeo.com Northern America: Current Quality of Life Index by City  
 
-Median Government Outdoor Spending
-Data File: ml_data.csv
-Data Source: merged data from various sources. See Machine Learning References for details.
+Median Government Outdoor Spending  
+Data File: ml_data.csv  
+Data Source: merged data from various sources. See Machine Learning References for details  
 
-Data File: outdoor_rec_BEA_data_pulls.csv
-Data Source: US. Department of Commerce Bureau of Economic Analysis (bea).
+Data File: outdoor_rec_BEA_data_pulls.csv  
+Data Source: US. Department of Commerce Bureau of Economic Analysis (bea)  
 
-Machine Learning References
-
-Data File: ml_data.csv
-Data Source: merged data from the following data file; nar_share_of_homebuyers.csv, outdoor_rec_BEA_data_pulls.csv, cities_weather_data_cleaned_us_only.csv, inbound_data_cross_reference.csv, qol_cleaned_us_only.csv 
-
+Machine Learning References  
+Data File: ml_data.csv  
+Data Source: merged data from the following data file; nar_share_of_homebuyers.csv, outdoor_rec_BEA_data_pulls.csv, cities_weather_data_cleaned_us_only.csv, inbound_data_cross_reference.csv, qol_cleaned_us_only.csv   
 
 
 ## Questions for Analysis
