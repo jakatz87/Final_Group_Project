@@ -76,6 +76,12 @@ We created both a Logistic Regression Model and a Random Forest Model.  The Rand
 
 ![random_forest_model_code](https://user-images.githubusercontent.com/113568268/225430964-9cf7c609-96d4-4a24-88d9-4c0b1f700d71.png)
 
+The Random Forest Model helped us refine which features had the highest impact in our analysis
+
+![random_forest_model_feature_importance_code](https://user-images.githubusercontent.com/113568268/225432216-944446f7-61df-4aa1-b77d-28b9892bc5cf.png)
+
+![random_forest_model_feature_importance_output](https://user-images.githubusercontent.com/113568268/225432261-ed7af839-d5b0-490f-bb38-96a2aa5782bf.png)
+
 
 The Logistic Regression Model had a 98% accuracy, so we had a good idea our data was valid enough. 
 
