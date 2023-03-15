@@ -3,10 +3,16 @@
 
 
 ## Project Overview
+
+The objective of the final project was to use Machine Learning to validate the chosen datasets and to choose various program languages to produce a presentation in order to show the skills learned throughout the UCF Data Analysis and Visualization Bootcamp. 
+
+With this is mind this is the presentation chosen by the Final CountGroup.
+
 Final CountGroup Consulting was engaged to conduct research and provide analysis to a AirBnb serial investor and their board of directors to explore the theme of business investment, weather analysis, travel destinations, government outdoor spending, and quality of life.
 
 ## Data Process
-To conduct our analysis, our team sought out relevant data sources. We utilized websites such as Kaggle.com and Dataworld.com and conducted keyword searches on Tableau Public. Additionally, each team member conducted searches on ChatGPT and Google. As a result of these efforts, we were able to gather multiple datasets that allowed us to conduct our analysis.
+To conduct our analysis, our team sought out relevant data sources. We utilized websites such as Kaggle.com and Dataworld.com and conducted keyword searches on Tableau Public. Additionally, each team member conducted searches on ChatGPT and Google. As a result of these efforts, we were able to gather multiple datasets that allowed us to conduct our analysis. 
+
 During the data research process, it was important to have a clear understanding of what we were looking for. While we began with a general idea of the data we needed, we also had to be careful not to get sidetracked by irrelevant information. In some instances, we found ourselves exploring data and ideas that ultimately helped to refine our research questions and narrow down the specific data needed to provide valuable analysis for our client.
 
 
