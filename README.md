@@ -11,7 +11,10 @@ During the data research process, it was important to have a clear understanding
 
 
 ## Questions for Analysis
+
 What metrics would influence a potential a serial AirBnb investor to buy a vacation rental property?
+
+
 Would factors such as weather, travelers, cost of living, healthcare, safety, quality of life or property inventory play a role in where a person decides to purchase a vacation rental property?
 
 
