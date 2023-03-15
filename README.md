@@ -1,4 +1,4 @@
-![Maximize AirBnb Investments UCF Bootcamp Data Analytics and Visualization (2023)](https://user-images.githubusercontent.com/113568268/225143671-ab6e033b-3b0a-438a-80f4-1e0ba593d4ad.png)
+<img src="https://user-images.githubusercontent.com/113568268/225143671-ab6e033b-3b0a-438a-80f4-1e0ba593d4ad.png" width=75% height=50% />
 
 
 Final_Group_Project
