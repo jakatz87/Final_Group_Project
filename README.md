@@ -66,7 +66,9 @@ Machine learning is a powerful tool used to interpret data by creating algorithm
 
 We had data on weather, on quality of life, on government spending, and travel destinations, we just had to create a model.  So, we decided to create an arbitrary percentile for quality of life, and gave each city a 1 or a 0 based on it.
 
-Once the ‘high_q’ measure was created, we accounted for overfitting by dropping the features that would be far too obvious for a ML model, like the quality-of-life index and the city_rank.   And now it was time to start cooking.
+Once the ‘high_q’ measure was created, we accounted for overfitting by dropping the features that would be far too obvious for a ML model, like the quality-of-life index and the city_rank. 
+
+![high_q-variable](https://user-images.githubusercontent.com/113568268/225429927-f3423d51-d7fc-45a4-b5f8-428cb9727857.png)
 
 We created both a Logistic Regression Model and a Random Forest Model.  The Random Forest Model worked way too well, with 100% accuracy.  So, we dropped more features and n_estimators, but still came back at 100%.  
 
