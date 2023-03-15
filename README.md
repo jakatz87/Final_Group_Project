@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/113568268/225143671-ab6e033b-3b0a-438a-80f4-1e0ba593d4ad.png" width=100% height=25% />
+<img src="https://user-images.githubusercontent.com/113568268/225143671-ab6e033b-3b0a-438a-80f4-1e0ba593d4ad.png" width=100% height=10% />
 
 
 Final_Group_Project
