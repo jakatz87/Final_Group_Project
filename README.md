@@ -45,8 +45,8 @@ The goal of the visualizations was to help enable our client to choose a locatio
 Average Temperature by State interactive map allows the AirBnb investor to hover over any state and see what the average temperature of a particular state.
 
 Inbound Travelers by State will help inform the investor where people tend to vacation and how rentable a property may be. This interactive visual using dynamic circles allows the user to get a quick view the differing amounts of inbound travelers. In addition, it allows the user to hover over the circle to see the exact number of travelers.
-<img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/inboundtravlersbymillions.png
-" width=100% height=25% />
+
+<img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/inboundtravlersbymillions.png" width=100% height=25% />
 
 Real Estate Buyers by State interactive graphic gives the client the ability the quickly see overview of the what real estate inventory would be available. It allows the client to hover over each bar and see the actual percentage of buyers for a particular state.
 
