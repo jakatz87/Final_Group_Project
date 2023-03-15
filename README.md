@@ -78,7 +78,9 @@ The team used Zoom, Slack and Google Meeting for all communication needs. We com
 ## Location of Project Deliverables
 
 Presentation: ?? I think this is where we put all the website files and final presentation.
+
 Final_project_data: All the final csv file
+
 Jupyter Code Files. Code: All the notebooks and Tableau’s used for the final project
 
 
