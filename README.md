@@ -19,7 +19,7 @@ During the data research process, it was important to have a clear understanding
 
 The final project data is stored here: https://github.com/jakatz87/Final_Group_Project/tree/main/final_project_data
 
-src="https://github.com/jakatz87/Final_Group_Project/blob/main/Draft_DBSchema_6MAR23.png" width=100% height=25% />
+<img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Draft_DBSchema_6MAR23.png" width=100% height=25% />
 
 
 ## Questions for Analysis
