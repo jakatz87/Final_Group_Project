@@ -15,6 +15,12 @@ To conduct our analysis, our team sought out relevant data sources. We utilized 
 
 During the data research process, it was important to have a clear understanding of what we were looking for. While we began with a general idea of the data we needed, we also had to be careful not to get sidetracked by irrelevant information. In some instances, we found ourselves exploring data and ideas that ultimately helped to refine our research questions and narrow down the specific data needed to provide valuable analysis for our client.
 
+## Database
+
+The final project data is stored here: https://github.com/jakatz87/Final_Group_Project/tree/main/final_project_data
+
+src="https://github.com/jakatz87/Final_Group_Project/blob/main/Draft_DBSchema_6MAR23.png" width=100% height=25% />
+
 
 ## Questions for Analysis
 
