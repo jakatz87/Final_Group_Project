@@ -5,7 +5,7 @@
 
 ## Project Overview
 
-The objective of the final project was to use Machine Learning to validate the chosen datasets and to choose various program languages to produce a presentation in order to show the skills learned throughout the UCF Data Analysis and Visualization Bootcamp. 
+The objective of the final project was to use Machine Learning to validate chosen datasets and to use various program languages to produce a presentation in order to show the skills learned throughout the UCF Data Analysis and Visualization Bootcamp. 
 
 With this is mind this is the presentation chosen by the Final CountGroup.
 
