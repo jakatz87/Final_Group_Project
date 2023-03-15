@@ -42,7 +42,10 @@ Regardless of which model was more accurate, the beauty was in the Feature Impor
  
 
 ### Visualizations
-The goal of the visualizations was to help enable our client to choose a location for vacation property investment. We used Tableau to create the interactive maps and graphs. Each visualization allows the client to view the different factors. By using all the visuals, the investor can determine where the best location to invest in a vacation rental property based on their criteria. 
+Our aim was to assist our client in selecting an ideal location for investing in vacation rental property, and we employed Tableau to create interactive maps and graphs for this purpose. Each visualization presents various factors, and by utilizing all the visuals, the investor can decide on the best location for their vacation property investment based on their specific criteria.
+
+This presentation serves as the first in a series of meetings to help our client narrow down their preferred investment locations. The graphics provided are organized by state, enabling the investor to determine which state(s) they are considering investing in. Once the investor has made their initial selection, our team will collect more detailed data and follow the same approach used in the first meeting. Depending on the level of granularity of the data obtained, we may be able to significantly narrow down the location options.
+
 
 Average Temperature by State interactive map allows the AirBnb investor to hover over any state and see what the average temperature of a particular state.
 
