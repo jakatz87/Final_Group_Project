@@ -77,8 +77,6 @@ We created both a Logistic Regression Model and a Random Forest Model.  The Rand
 
 ![random_forest_model_code](https://user-images.githubusercontent.com/113568268/225430964-9cf7c609-96d4-4a24-88d9-4c0b1f700d71.png)
 
-![random_forest_outcome](https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/Random%20Forest%20Model%20Code%20Outcome.png)
-
 The Random Forest Model helped us refine which features had the highest impact in our analysis
 
 ![random_forest_model_feature_importance_code](https://user-images.githubusercontent.com/113568268/225432216-944446f7-61df-4aa1-b77d-28b9892bc5cf.png)
@@ -98,7 +96,7 @@ Regardless of which model was more accurate, the beauty was in the Feature Impor
  
  
 
-### Visualizations
+## Visualizations
 Our aim was to assist our client in selecting an ideal location for investing in vacation rental property, and we employed Tableau to create interactive maps and graphs for this purpose. Each visualization presents various factors, and by utilizing all the visuals, the investor can decide on the best location for their vacation property investment based on their specific criteria.
 
 This presentation serves as the first in a series of meetings to help our client narrow down their preferred investment locations. The graphics provided are organized by state, enabling the investor to determine which state(s) they are considering investing in. Once the investor has made their initial selection, our team will collect more detailed data and follow the same approach used in the first meeting. Depending on the level of granularity of the data obtained, we may be able to significantly narrow down the location options.
@@ -129,7 +127,7 @@ Median Government Outdoor Spending stunningly show how much money is spent on ou
 <img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/outdoor_viz.png" width=100% height=25% />
 
 
-### Github/Communication Protocols
+## Github/Communication Protocols
 
 To facilitate collaboration, our team created a GitHub repository for our final project, with Josh Katz serving as the repository manager. The repository consists of four branches, one for each team member, and is located within the Final_Count_Group_Consulting repository (https://github.com/jakatz87/Final_Group_Project)
 In addition to GitHub, we also established a Slack channel named final-countgroup, which includes all four members of our team. This channel serves as a platform for sharing ideas and notifying the team when we have made updates to our repository. We will also be utilizing Google Meet for video conferencing, with meetings scheduled for a minimum of three times per week. These meetings will occur twice a week during class time on Mondays and Wednesdays from 7pm-9pm, and at least once a week via Google Meet.
