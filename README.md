@@ -75,7 +75,7 @@ Once the ‘high_q’ measure was created, we accounted for overfitting by dropp
 
 We created both a Logistic Regression Model and a Random Forest Model.  The Random Forest Model worked way too well, with 100% accuracy.  So, we dropped more features and n_estimators, but still came back at 100%.  
 
-![random_forest_model_code](https://user-images.githubusercontent.com/113568268/225430964-9cf7c609-96d4-4a24-88d9-4c0b1f700d71.png)
+![random_forest_model_code](https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/Random%20Forest%20Model%20Code%201.png)
 
 The Random Forest Model helped us refine which features had the highest impact in our analysis
 
