@@ -1,0 +1,22 @@
+Self-Assessment (40 points)
+
+Your self-assessment should be a few paragraphs in length and meet the following requirements:
+
+    Cohesive written analysis: Describes the role or roles that you played over the course of the project and the contribution of each of those roles to the project. This written analysis should also describe your greatest personal challenge over the course of the project and how you overcame it.
+
+    Cohesive written summary: Describes how you contributed to each role that you didn’t play. This might have occurred via team discussions, peer reviews, or other means.
+
+
+Project and Team Summary (60 points)
+
+The project summary should be a two paragraph written analysis that summarizes the project, illustrates the teamwork of the group, and documents lessons learned. The summary should be written as if to be used in an interview or cover letter, and includes all of the following:
+
+    Communication protocols used, including any challenges, how they were resolved, and what they would do differently next time
+    Team strengths, including tips and tricks they would want to share with a new cohort kicking off the project
+    Topic addressed
+    Machine learning model used
+    Results of the analysis
+
+Team FinalCount Group was tasked with finding a project idea that showcased the skills learned and developed throughout this course. We leveraged slack for messaging communications, and used GitHub to track our code across our four individual branches and a main branch. Outside of class hours we used Google Meet for 1hr remote conferencing, where we were able to share screens and see each other as we worked through the three phases of the final project. we never considered ourselves 'limited' by 1hr commercial collaboration programs, having resolved to 'just start another meet up' if we were going to go long on time. This proved to be a strength amongst all partners: the ability to communicate positively, respect our diverse experiences, and focus on the singular objective of success!
+
+Something that worked very well for us was capitalizing on our experiences outside of data analysis and visualization. Alina's expertise in javascript, html, and css enabled us to deploy a top tier website; Deborah's background in the geospatial workspace helped us create spectacular maps that helped us tell our data's story; Josh's mathematical genius and solid python expertise allowed us to extract, transform, and load our data, then transform it to assist in our analysis. Josh's interest in machine learning helped guide us towards using a Random Forest model, while also trying logistic regression on our dataset; Scott's project management experience, coupled with his background in writing and publishing helped us clearly communicate our data story. The team's synergy would not have been possible without having previously agreed to participate in a small group slack channel early on in the course. The relationships and support we cultivated in the #breakout-room-warriors channel. 
