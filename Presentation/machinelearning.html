@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Group Project</title>
+       
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@600;800&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<section class="container">
+    <nav>
+        <a href="index.html"><img src="images/earthicon.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="projectinfo.html">PROJECT INFO</a></li>
+                <li><a href="map.html">TABLEAU</a></li>
+                <li><a href="machinelearning.html">MACHINE LEARNING</a></li>
+                <a href="https://github.com/jakatz87/Final_Group_Project" class="github-btn"><span>GITHUB</span></a>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+<div class="MLtext-box">
+
+    <h1>MACHINE LEARNING</h1>
+
+</div>
+
+</section>
+
+<section class="MLdescription">
+    <h2>What is machine learning?</h2>
+    <p>Machine learning is a field of artificial intelligence that involves the development of algorithms and statistical 
+    models that enable computer systems to improve their performance on a specific task or set of 
+    tasks through experience, without being explicitly programmed. In other words, it is a type of artificial
+    intelligence that uses algorithms to learn from data and make predictions or decisions without being explicitly programmed for each scenario. Machine learning is used in a wide range of applications, from image recognition and natural language processing to fraud detection and predictive analytics.</p>
+
+    <h2>Data Source: ml_data.csv</h2>
+    <p>Data Source: merged data from the following data file; nar_share_of_homebuyers.csv, outdoor_rec_BEA_data_pulls.csv, cities_weather_data_cleaned_us_only.csv, inbound_data_cross_reference.csv, qol_cleaned_us_only.csv </p>
+    <h2>Value: 'high_q'</h2>
+    <p>Description: The ‘high_q’ value was set based on 
+    the top 69% quality of life index ratings.  If a city was in the category, 
+    ‘high_q’ was scored with a 1.</p>
+    <h2>Features: ’max_temp’, ‘humidity’, ‘cloudiness’, ‘wind_speed’, ‘2017’, 
+        ‘2018’, ‘2019’, ‘2020’, ‘2021’, ‘purchase_power’, ‘safety’, ‘health_care’, 
+        ‘cost_of_living’, ‘prop_to_income_ratio’, ‘traffic_comm_time’, ‘pollution’, 
+        ‘climate’</h2>
+
+    <p>Description:  The features listed as years each represent the amount of 
+    total government expenditures, by state, on total outdoor activities including 
+    travel and tourism.</p>  
+</section>
+
+<section class="rftitle">
+    <h2>RANDOM FOREST MODEL</h2>
+</section>
+
+<section class="RFModel">
+   <div class="img1"> <img src="images/rfcode1.png"></div>
+   <div class="img2"> <img src="images/rfoutcome.png"></div>
+</section>
+
+<section class="outcomerf">
+    <div class="img3"><img src="images/rfdrop.png"></div>
+</section>
+
+<section class="rftext">
+    <p>The Random Forest model produced 100% accuracy on every attempt.  
+    After the first attempt of running the model, several features were 
+    added to the ‘drop’ list. Regardless of the features kept for the model, 
+    or the number of n_estimators, Random Forest produced 100% accuracy for 
+    this data set.</p>
+
+</section>
+    
+<section class="rftitle">
+    <h2>LOGISTIC REGRESSION MODEL</h2>
+</section>
+
+<section class="LRMModel">
+    <div class="img1"> <img src="images/lrm1.png"></div>
+    <div class="img2"> <img src="images/lrmoutcome.png"></div>
+ </section>
+
+ <section class="lrmtext">
+    <p>The Logistic Regression Model produced a 98% accuracy score keeping the original set of features.</p>
+
+</section>
+
+<section class="lrmdescription">
+    
+    <h1>Results</h1>
+    <h2>What are the issues with the Logistic Regression Model?</h2>
+    <p>The data file used for the model was merged from four different 
+    sets of data, each with differing values and amounts of data.  
+    The issue was how the Quality of Life Index was transferred.  
+    The original file with this data represented only 60 cities in 
+    the US.  When the data was merged with the 2000 city file, the 
+    Quality of Life Index was merged on “state” to ensure that most 
+    of the 2000 cities had that data point.  In the merged file, any 
+    city in the same state would have the same Quality of Line Index score.</p>
+
+
+    <h2>What is the takeaway for the Logistic Regression Model?</h2>
+    <p>The strength of the Random Forest Model is not the 100% accuracy,
+    it is the ability to measure `feature_importances_`</p>
+</section>
+
+
+<section class="fibModel">
+    <div class="img3"> <img src="images/fibccode.png">
+    
+      <p>This represents the 2nd set of measured Feature Importances.  
+        In the first set, the features of “2012” through “2016” were kept.  
+        The feature ‘2014’, representing the government expenditures of outdoor 
+        activities, by state, was the top feature in the Random Forest Model, 
+        with ‘health_care’ as 2nd.  When limiting the features to the past five 
+        years of data for government expenditures by date, ‘safety’ became
+         the number one feature. As investors consider locations for property, 
+        safety, health care, climate, and government expenditures on outdoor activities would be factors that require serious consideration.
+        </p>  
+
+    </div>
+    <div class="img4"> <img src="images/fibarchart.png"></div>
+ </section>
+
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
