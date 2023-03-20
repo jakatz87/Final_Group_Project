@@ -144,7 +144,12 @@ Median Government Outdoor Spending stunningly show how much money is spent on ou
 <img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Webpage_images/outdoor_viz.png" width=100% height=25% />
 
 
-### Github/Communication Protocols
+## Presentation
+
+For the presentation portion of the assignment, our team took the route of creating an interactive website. This involved utilizing HTML, CSS and Javascript. We brainstormed prior to making the website, what story we wanted to tell. The home page opens up the story of our mission, the project information page explains in detail what is to be seen throughout the project, the Tableau page shows the interactive portion of our project, while the machine learning portion determines the features with the highest impact on our project! Both the Home page and the Project information page were designed with free stock pictures, The Tableau page was created by using the same base for HTML and CSS. After recreating the base, we used the paid Tableau feature free trial and the page produced the HTML code and placed what they gave us into our own HTML code. The Machine Learning page consisted of screen shots with explanations. We resized everything to fit accordingly in the CSS.
+
+
+## Github/Communication Protocols
 
 To facilitate collaboration, our team created a GitHub repository for our final project, with Josh Katz serving as the repository manager. The repository consists of four branches, one for each team member, and is located within the Final_Count_Group_Consulting repository (https://github.com/jakatz87/Final_Group_Project)
 In addition to GitHub, we also established a Slack channel named final-countgroup, which includes all four members of our team. This channel serves as a platform for sharing ideas and notifying the team when we have made updates to our repository. We will also be utilizing Google Meet for video conferencing, with meetings scheduled for a minimum of three times per week. These meetings will occur twice a week during class time on Mondays and Wednesdays from 7pm-9pm, and at least once a week via Google Meet.
