@@ -1,0 +1,843 @@
+ /* HOME PAGE */
+
+
+/* BODY */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Golos Text', sans-serif;;
+    
+}
+
+body{
+    background: linear-gradient(#ABE59F, #F5F3BB);
+   
+    background-size: auto;
+}
+
+.container{  
+    width: 100%;
+      
+}
+
+
+
+/* NAVIGATION */
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav img{
+    width: 100px;
+    margin-top: -23px;  
+}
+
+.nav-links{
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 18px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color:#003A3D;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:#00AFB9;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+nav .fa{
+    display: none;
+}
+
+
+/* GITHUB BUTTON */
+.github-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient( #ABE59F, #ABE59F), radial-gradient(circle at top left, #FE5F55, #00AFB9);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.github-btn:hover{
+    border: #00AFB9;
+    background: #00AFB9;
+    transition: 1s;
+}
+
+
+
+.github-btn span{
+    display: block;
+    padding: 8px 22px;
+}
+
+/* BODY OF HOME PAGE */
+
+.banner{
+    width: 80%;
+    height: 30%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+}
+
+
+.app {
+    margin-top: 10%;
+    
+    margin-bottom: 5%;
+    
+    column-gap: 15px;
+  
+}
+
+
+.app h1{
+    font-size: 41px;
+    width: 665px;
+    padding-left: 12%;
+    
+}
+
+
+.app p{
+    width: 550px;
+    font-size: 17px;
+    line-height: 25px;
+    padding-top: 25px;
+    padding-left: 12%;
+    padding-bottom: 25px;
+    color:#00AFB9;
+}
+
+.learn-btn{
+    margin-left: 40px;
+    display: inline-flex;
+    padding-left: 10%;
+}
+
+
+.app img{
+    width: 50%;
+    margin-top: -12%;
+    padding-left: 5%;
+    padding-right: 5%;
+    float: right;
+   
+}
+
+
+.learn-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient( #ABE59F, #ABE59F), radial-gradient(circle at top left, #FE5F55, #00AFB9);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    text-align: center;
+}
+.learn-btn-inner .fa{
+    padding: 15px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+small{
+    margin: auto 20px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #00AFB9;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+/* LEARN MORE */
+/* FIRST ROW */
+
+.learnfirstrow{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    background:#b7ebac;
+    border-radius: 50px;
+    padding: 20px 32px;
+    box-sizing: border-box;
+
+}
+
+
+.learnhead img{
+    width: 55%;
+    padding-left: 22%;
+}
+
+.learnhead h1{
+    width: 540px;
+    margin-top: 25%;
+    color: #003A3D;
+    font-size: 50px;
+    
+}
+
+
+
+/* SECOND ROW */
+.learnsecondrow{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;     
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.learnsecondhead{
+    flex-basis: 31%;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    column-gap: 35px;
+    transition: 0.5s;
+
+}
+
+
+
+
+.learnsecondhead img{
+    width: 65%;
+    padding-right: 12%;
+    margin-top: 25%;
+}
+
+.header1{
+    margin-top: 40%;
+    padding-left: 22%;
+    width: 110%;
+}
+
+.header1 h1{
+    font-size: 120px;
+    float: left;
+    color: #003A3D;
+}
+
+
+.header1 h2{
+    font-size: 60px;
+    color: #003A3D;
+    text-align: center;
+    width: 550px;
+   
+    
+
+}
+
+
+
+.learnsecondhead p{
+    padding-top: 30px;
+    width: 540px;
+    text-align: center;
+    padding-left: 22%;
+    padding-bottom: 5%;
+
+}
+
+
+
+
+
+/* THIRD ROW */
+
+.learnthirdrow{
+    width: 80%;
+    margin: auto;
+    margin-top: 10 px;
+    text-align: center;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr); 
+    
+}
+
+.learnthirdhead{
+    flex-basis: 31%;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 0px 32px;
+    box-sizing: border-box;
+    column-gap: 5px;
+    transition: 0.5s;
+    
+
+}
+
+.learnthirdhead img{
+    width: 65%;
+    padding-right: 12%;
+    margin-top: 25%;
+    float: right;
+    
+    
+}
+
+.header2{
+    margin-top: 40%;
+    padding-left: 10%;
+    width: 110%;
+}
+
+.header2 h1{
+    font-size: 120px;
+    float: left;
+    color: #003A3D;
+    margin-right: 18px;
+}
+
+
+.header2 h2{
+    font-size: 60px;
+    color: #003A3D;
+    text-align: left;
+    width: 620px;
+    margin-left: 15px;
+    
+
+}
+
+
+
+.learnthirdhead p{
+    padding-top: 10px;
+    width: 540px;
+    text-align: center;
+    padding-left: 15%;
+    padding-bottom: 5%;
+
+}
+
+
+
+/* FOURTH ROW */
+
+.learnfourthrow{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.learnfourthhead{
+    flex-basis: 31%;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    column-gap: 35px;
+    transition: 0.5s;
+
+}
+
+.learnfourthhead img{
+    width: 65%;
+    padding-right: 12%;
+    margin-top: 28%;
+    float: right;
+}
+
+
+.header3{
+    margin-top: 40%;
+    width: 110%;
+    padding-left: 90px;
+}
+
+.header3 h1{
+    font-size: 120px;
+    float: left;
+    color: #003A3D;
+    padding-right: 3%;
+    padding-left: 10%;
+    
+}
+
+
+.header3 h2{
+    font-size: 60px;
+    color: #003A3D;
+    text-align: left;
+    width: 620px;
+    
+    
+    
+}
+
+
+
+.learnfourthhead ul{
+    padding-top: 10px;
+    width: 540px;
+    text-align: left;
+    padding-left: 22%;
+    padding-bottom: 10px;
+
+}
+
+
+
+/* FIFTH ROW */
+
+.objective{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    color:#2E2823;
+}
+
+p{
+    color: #2E2823;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+
+.row{
+    margin-top: 5%;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.course_col{
+    flex-basis: 31%;
+    background:#f5f5cf;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    column-gap: 35px;
+    transition: 0.5s;
+}
+
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0px;
+    color: #2E2823;
+}
+
+.course_col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2) ;
+}
+
+
+
+
+
+
+
+
+
+
+/* map page */
+
+
+
+
+
+.mapcontainer{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/usmap.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;  
+}
+
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+    color: #fff;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.metrics{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/* MACHINE LEARNING page */
+
+
+.MLtext-box{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 250px;
+
+
+    flex-basis: 31%;
+    background:#f5f5cf;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    column-gap: 35px;
+    transition: 0.5s;
+}
+
+
+.MLtext-box h1{
+    font-size: 62px;
+    color:#003A3D;
+}
+
+
+.MLdescription{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    
+
+    flex-basis: 31%;
+    background:#f5f5cf;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    column-gap: 35px;
+    transition: 0.5s;
+}
+
+.MLdescription h2{
+    color: #003A3D;
+}
+
+.MLdescription p{
+    color: #003A3D;
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+.rftitle h2{
+    width: 80%;
+    color: #003A3D;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2%;
+    font-size: 35px;
+}
+
+.RFModel{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.img1 img{
+    max width: 100%;
+    height: 700px;
+    
+}
+
+.img2 img{
+    max width: 100%;
+    height: 700px;
+
+}
+
+.outcomerf{
+    flex-basis: 31%;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    column-gap: 35px;
+    transition: 0.5s;
+}
+
+.img3 img{
+    padding-left: 10.3%;
+    padding-top: 2%;
+}
+
+.rftext{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+    margin-top: -4%;
+}
+
+.rftext p{
+    color: #003A3D;
+    padding-bottom: 35px;
+    font-size: 20px;
+    position: center;
+    padding-bottom: 11%;
+}
+
+
+
+.LRMModel{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 7%;
+}
+
+.lrmtext p{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: -4%;
+    color: #003A3D;
+    padding-bottom: 45px;
+    font-size: 20px;
+
+    
+}
+
+.lrmdescription{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 250px;
+
+
+    flex-basis: 31%;
+    background:#f5f5cf;
+    border-radius: 50px;
+    margin-bottom: 5%;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    column-gap: 35px;
+    transition: 0.5s;
+}
+
+.lrmdescription h1{
+    width: 80%;
+    color: #003A3D;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2%;
+    font-size: 55px;
+}
+
+
+.lrmdescription h2{
+    color:#003A3D;
+}
+
+.lrmdescription p{
+    color: #003A3D;
+    padding-bottom: 35px;
+    font-size: 20px;
+}
+
+
+
+.fibModel{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 7%;
+
+}
+
+.fibModel p{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 12%;
+    padding-top: 10%;
+    color: #003A3D;
+    line-height: 33px;
+    
+}
+
+.img4 img{
+    width: 23%;
+    height: 900px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE CSS CODE */
+
+@media screen and (max-width: 700px){
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #ABE59F;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right:-200px;
+        text-align: left;
+        z-index: 2;
+        float: auto;
+        transition: 1s;
+    }
+
+    nav img{
+        width: 100px;
+        margin-top: -4px;  
+    }
+
+    .github-btn{
+        display: none;
+    }
+
+    nav .fa{
+        display: block;
+        color: #2E2823;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+
+    .app h1{
+        font-size: 21px;
+        width: 350px;
+    }
+    
+    
+    .app p{
+        width: 350px;
+        font-size: 17px;
+        line-height: 25px;
+        padding-top: 25px;
+        padding-left: 12%;
+        padding-bottom: 25px;
+        color:#00AFB9;
+    }
+
+    .app img{
+        width: 60%;
+        margin-top: -12%;
+        padding-left: 15%;
+        padding-right: 5%;
+        float:inherit;
+       
+    }
+
+
+
+    .learnfirstrow img{
+        width: 55%;
+        float:inherit;
+    }
+    
+    .learnfirstrow h2{
+        width: 540px;
+        font-size: 15px;
+        margin-top: 11%;
+        color: #003A3D;
+    }
+}

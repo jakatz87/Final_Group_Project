@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Group Project</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@600;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+<section class="container">
+    <nav>
+        <a href="index.html"><img src="images/earthicon.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="projectinfo.html">PROJECT INFO</a></li>
+                <li><a href="map.html">TABLEAU</a></li>
+                <li><a href="machinelearning.html">MACHINE LEARNING</a></li>
+                <a href="https://github.com/jakatz87/Final_Group_Project" class="github-btn"><span>GITHUB</span></a>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+
+
+    <section class="learnfirstrow">
+            <div class="learnhead">
+                <img src="images/map.png">
+            </div>
+
+            <div class="learnhead">
+                <h1>Project Information</h1>
+            </div>
+        
+
+    </section>
+
+
+
+
+
+    <!--ABOUT THE PROJECT-->
+
+    <section class="learnsecondrow">
+        <div class="learnsecondhead">
+            <div class="header1"><h1># 1</h1><h2>Analysis Overview</h2></div>
+            <p>For our final group project, we opted to explore the theme of business 
+            investment and weather analysis, drawing on our previous knowledge from the bootcamp. 
+            Specifically, we focused on a serial AirBnb investor who sought to make informed investment 
+            decisions based on various factors, including temperature, amount of inbound travelers, real 
+            estate sales and quality of life in the United States. Our team, Final CountGroup Consulting, 
+            was engaged to conduct research and provide analysis to the investor and their board of directors. 
+            This topic builds upon the concepts we learned in the Surf's Up and the Machine Learning Module, 
+            allowing us to expand our understanding of these areas in a practical context.</p>
+        </div>
+        
+        <div class="learnsecondhead">
+            <img src="images/analysis.png">
+        </div>
+
+    </section>
+
+    <!--DATA SOURCE DESCRIPTION-->
+
+
+    <section class="learnthirdrow">
+
+        <div class="learnthirdhead">
+            <img src="images/data.png">
+        </div>
+
+        <div class="learnthirdhead">
+            <div class="header2"><h1># 2</h1><h2>Data Sources Utilized</h2></div>
+            <p>To conduct our analysis, our team sought out relevant data sources. We utilized websites such as Kaggle.com and Dataworld.com and conducted keyword searches on Tableau Public. Additionally, each team member conducted searches on ChatGPT and Google. As a result of these efforts, we were able to gather multiple datasets that allowed us to conduct our analysis.</p>
+        </div>
+
+    </section>
+
+    <!--QUESTIONS WE HOPE TO ANSWER-->
+
+    <section class="learnfourthrow">
+        
+        <div class="learnfourthhead">
+            <div class="header3"><h1># 3</h1><h2>Our Questions</h2></div>
+            <ul>* What metrics would influence a potential a serial AirBnb investor to buy a vacation rental property?</ul>
+            <ul>* Would factors such as weather, travelers, cost of living, healthcare, safety, quality of life or property inventory play a role in where a person decides to purchase a vacation rental property?</ul>
+            
+            
+        </div>
+
+        <div class="learnfourthhead">
+            <img src="images/question.png">
+        </div>
+
+    </section>
+    
+    <!--PROJECT TAB SECTION-->
+    <section class="objective">
+        <h1>DATA SOURCE INFORMATION</h1>
+        
+
+        <div class="row">
+            <div class="course_col">
+                    <h3>Average Temperature by State</h3>
+                    <p>Data File: cities_weather_data_cleaned_us_only.csv
+                        <br><br>Data Source:Openweather.org
+                        </p>
+            </div>
+            
+            <div class="course_col">
+                <h3>Inbound Travelers by State per Million</h3>
+                <p>Data File: inbound_data_cross_reference.csv
+                <br><br>Data Source: US_Air_Travel by Robby Sim (Tableau Public data download)
+                    </p>
+            </div>
+            
+            <div class="course_col">
+                <h3>Real Estate Buyers by State %</h3>
+                <p>Data File: nar_share_of_homebuyers.csv
+                <br><br>Data Source: National Association of Realtors
+                    </p>
+           </div> 
+
+           <div class="course_col">
+                <h3>US Quality of Life</h3>
+                <p>Data File: qol_cleaned_us_only.csv
+                    <br><br>Data Source: Numbeo.com Northern America: Current Quality of Life Index by City</p>
+            </div> 
+
+        </div>
+
+
+        <div class="row">
+            <div class="course_col">
+                <h3>Machine Learning Models</h3>
+                <p>Data File: ml_data.csv
+                <br><br>Data Source: merged data from the following data file; nar_share_of_homebuyers.csv, outdoor_rec_BEA_data_pulls.csv, cities_weather_data_cleaned_us_only.csv, inbound_data_cross_reference.csv, qol_cleaned_us_only.csv 
+                
+
+                    </p>
+            </div>
+            
+            <div class="course_col">
+                <h3>Median Government Outdoor Spending </h3>
+                <p>Data File: ml_data.csv
+                <br><br>Data Source: merged data from various sources. See Machine Learning References for details.
+
+                    </p>
+            </div>
+            
+            <div class="course_col">
+                <h3>Bureau of Economic Analysis Data</h3>
+                <p>Data File: outdoor_rec_BEA_data_pulls.csv
+                    <br><br>Data Source: US. Department of Commerce Bureau of Economic Analysis (bea).
+                    
+                    </p>
+           </div> 
+
+           <div class="course_col">
+            <h3>FinalCountGroup</h3>
+            <p>As we sourced our data from around the web, we took care to extract, transform, and load it using Jupyter Notebook and Python Pandas. We merged our cleaned data into useable .csv files that were imported into a SQL database using PGAdmin4. The files remain in an AWS S3 Bucket, along with this website, for your access and use!
+                
+                </p>
+              
+            </div> 
+
+        </div>
+
+    </section>
+
+
+</section>
+
+<script src="app.js"></script>
+
+</body>
+</html>

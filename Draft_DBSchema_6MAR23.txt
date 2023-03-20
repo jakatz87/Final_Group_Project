@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Draft schema based on current research
 
 City_Weather as cw
@@ -55,4 +56,63 @@ cost_of_living int
 prop_to_income_ratio int
 traffic_comm_time int
 pollution int
+=======
+# Draft schema based on current research
+
+City_Weather as cw
+-
+City_ID PK int
+City string INDEX
+Country sting
+State string
+Lat int 
+Lng int
+Max_Temp int
+Humidity int
+Cloudiness int
+Wind_Speed int
+
+
+BEA as bea
+--
+Index PK int
+LineCode int
+State string FK >- cw.State
+2012 int
+2013 int
+2014 int
+2015 int
+2016 int
+2017 int
+2018 int
+2019 int
+2020 int
+2021 int
+
+
+Inbound as ib
+---
+Index PK int
+State string FK >- cw.State
+Latitude int
+Longitude int
+Sum_Passengers int
+
+
+QOL as q 
+----
+ID PK int
+city_rank int
+city string
+state string FK >- cw.State
+country string
+qol_index int
+purchase_power int
+safety int
+health_care int
+cost_of_living int
+prop_to_income_ratio int
+traffic_comm_time int
+pollution int
+>>>>>>> b67464ff7d7d936acbb49892d8ad8d2150f666ad
 climate int
