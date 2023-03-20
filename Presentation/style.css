@@ -28,6 +28,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 nav img{
@@ -229,6 +230,7 @@ small{
     display: grid;
     grid-column-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
+
 }
 
 .learnsecondhead{
