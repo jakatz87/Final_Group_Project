@@ -18,9 +18,10 @@ During the data research process, it was important to have a clear understanding
 
 ## Database
 
-The final project data is stored here: https://github.com/jakatz87/Final_Group_Project/tree/main/final_project_data
+The final project data is stored on Amazon Web Services S3 Buckets: s3://finalcountgroup.dataviz/data/
 
-<img src="https://github.com/jakatz87/Final_Group_Project/blob/main/Draft_DBSchema_6MAR23.png" width=100% height=25% />
+
+<img src="https://github.com/jakatz87/Final_Group_Project/blob/b98cd132d5cf2af36eccb7b45c0613bbc00a2c53/Webpage_images/DBSchema_15MAR.png" width=100% height=25% />
 
 
 ## Data Refernece
@@ -146,14 +147,17 @@ In addition to GitHub, we also established a Slack channel named final-countgrou
 
 Presentation: All the website files and final presentation.
 
-The possible final project data is stored here: https://github.com/jakatz87/Final_Group_Project/tree/main/possible_data_files  
 The final project data is stored here: https://github.com/jakatz87/Final_Group_Project/tree/main/final_project_data
-![](Draft_DBSchema_6MAR23.png)
+
 
 
 Final_project_data: All the final csv file
 
 Jupyter Code Files. Code: All the notebooks and Tableau’s used for the final project
+
+## What Next?
+
+This is only the beginning of this story! What other metrics / parameters might influence an investor? What might be another way to train a model and automate some of the search tasks? We here at FinalCountGroup Consulting are ready to pursue YOUR investment goals and collaborate on data analysis and visualizations that support YOUR strategy. Let's move forward together!
 
 
 ## Project Team
