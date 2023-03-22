@@ -72,6 +72,8 @@ PRIMARY KEY(ID),
 FOREIGN KEY (state) REFERENCES city_weather(State)
 );
 
+ALTER TABLE QOL DROP COLUMN city_rank;
+
 SELECT * FROM QOL;
 
 CREATE TABLE NAR (
@@ -98,5 +100,40 @@ CREATE TABLE IBD (
 );
 
 SELECT * FROM IBD;
+
+CREATE TABLE ml_data (
+    Index int NOT NULL,
+    state varchar NOT NULL,
+    max_temp dec NOT NULL,
+    humidity int NOT NULL,
+    cloudiness int NOT NULL,
+    wind_speed dec NOT NULL,
+    _2012 int NOT NULL,
+    _2013 int NOT NULL,
+    _2014 int NOT NULL,
+    _2015 int NOT NULL,
+    _2016 int NOT NULL,
+    _2017 int NOT NULL,
+    _2018 int NOT NULL,
+    _2019 int NOT NULL,
+    _2020 int NOT NULL,
+    _2021 int NOT NULL,
+    Sum_Passengers dec NOT NULL,
+    city_rank int,
+    qol_index dec,
+    purchase_power dec,
+    safety dec,
+    health_care dec,
+    cost_of_living dec,
+    prop_to_income_ratio dec,
+    traffic_comm_time dec,
+    pollution dec,
+    climate dec,
+    city varchar NOT NULL,
+    latitude dec NOT NULL,
+    longitude dec NOT NULL,
+    high_q int NOT NULL,
+    PRIMARY KEY (Index)
+);
 
 DROP TABLE City_Weather;
