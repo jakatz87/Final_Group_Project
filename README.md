@@ -148,7 +148,7 @@ In addition to GitHub, we also established a Slack channel named final-countgrou
   * CSS
   * JS
   * CSV Files
-  * Webscaping
+  * Webscraping
   * API
 
 ## Location of Project Deliverables
